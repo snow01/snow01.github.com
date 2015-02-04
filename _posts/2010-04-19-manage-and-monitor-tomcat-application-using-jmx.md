@@ -22,4 +22,3 @@ b) Click on JSR160 Application
 c) Provide the URL:
 <pre>service:jmx:rmi:///jndi/rmi://localhost:8040/jmxrmi</pre>
 <strong>6) Add Managed Objects. Possibly you are interested in Memory and Threading only.</strong>
-<div class="blogger-post-footer"><img alt="" width="1" height="1" /></div>

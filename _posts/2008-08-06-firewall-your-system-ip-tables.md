@@ -55,13 +55,8 @@ iptables -A THRU -p icmp -m limit --limit 1/sec -m icmp --icmp-type 8 -j ACCEPT;
 iptables -A THRU -i eth1 -p tcp -m tcp --dport 22 -j ACCEPT;
 iptables -A THRU -i eth1 -p tcp -m tcp --dport 80 -j ACCEPT;
 
-#iptables -A THRU -i eth1 -p tcp -m tcp --dport 25 -j ACCEPT;
-#iptables -A THRU -i eth1 -p tcp -m tcp --dport 21 -j ACCEPT;
-#iptables -A THRU -i eth1 -p tcp -m tcp --dport 110 -j ACCEPT;
-
 iptables -A THRU -p tcp -j REJECT --reject-with tcp-reset;
 iptables -A INPUT -p tcp -j REJECT --reject-with tcp-reset;
 iptables -A THRU -j DROP;
 iptables -A INPUT -j DROP;
 iptables -P INPUT DROP;
-<div class="blogger-post-footer"><img alt="" width="1" height="1" /></div>

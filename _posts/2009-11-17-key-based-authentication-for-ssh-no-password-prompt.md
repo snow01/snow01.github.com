@@ -18,4 +18,3 @@ categories: [Authorized Key, Known Hosts, Public Key, SSH, SSH Keygen, Tech]
 <span style="color:#1f497d;font-size:11pt;">10. Make sure same as (9) for /home/user/.ssh too.</span>
 <span style="color:#1f497d;font-size:11pt;">11. Make sure /home/user/.ssh/authorized_keys file has highest permission as 644.
 </span>
-<div class="blogger-post-footer"><img alt="" width="1" height="1" /></div>

@@ -19,4 +19,3 @@ In many cases you don't want to enable multicast communication on your public in
 route add -net 224.0.0.0 netmask 224.0.0.0 dev eth0
 
 Happy Multicasting !
-<div class="blogger-post-footer"><img alt="" width="1" height="1" /></div>

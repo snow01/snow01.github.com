@@ -38,4 +38,3 @@ In general too, primitive types are dangerous -- they do not have notion of unde
 So, all developers please do not use primitive types as far as possible, unless you are writing software for a memory constraint device and doing lot of bit packing. But even in that case I would suggest them to use primitive wrappers. One such implementation is freely available for Java developers from Apache Commons: http://commons.apache.org/primitives/
 
 Thanks !
-<div class="blogger-post-footer"><img alt="" width="1" height="1" /></div>

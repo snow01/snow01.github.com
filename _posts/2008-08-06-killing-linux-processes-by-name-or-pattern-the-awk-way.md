@@ -33,4 +33,3 @@ done
 
 echo "All processes owned by $_id should be dead now"
 exit 0
-<div class="blogger-post-footer"><img alt="" width="1" height="1" /></div>
