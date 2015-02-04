@@ -7,7 +7,7 @@ baseurl:     ""
 url:         "http://shailendra.org"
 
 # Google analytics
-google_analytics:
+google_analytics: UA-59350418-1
 
 # Optional features
 animated:           true
