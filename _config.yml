@@ -1,0 +1,41 @@
+# Site settings
+title:       Shailendra Sharma
+email:       shailendra.sharma@gmail.com
+author:      Shailendra Sharma
+description: ""
+baseurl:     ""
+url:         "/"
+
+# Google analytics
+google_analytics:
+
+# Optional features
+animated:           true
+show_related_posts: false
+show_post_footers:  true
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: shailendra
+
+# Social icons
+show_social_icons: true
+github_username: snow01
+stackoverflow_id:
+twitter_username: yeliahs
+google_plus_id: 
+linkedin_username: ssharma
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     20
+sass:
+  compressed: true
+gems:
+  - jekyll-sitemap
